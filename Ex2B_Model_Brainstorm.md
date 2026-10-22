@@ -1,8 +1,27 @@
-b)Someone who wants to look up events going on. Everyone who wants to look up the events.
- Different categories of cat code employee # venue id and event Id 
+# Requirements and Conceptual Model 
+Idasha Lee and Thania Sta. Ana
+Someone who wants to look up events going on or the managers who need to keep track of venues and events. They should be able to see all the local events going on
+Important different categories to track would be the category code, employee #, Venue ID, and Event ID. 
 
-c)For category code put event category. Employee number event manager, 
-email. Venu Id venue name, address, city, state, zip, contact name, contact email, contact phone. Event Id event name, event date, cat code, employee id, venue id 
+# Category code 
+ - Event category
+# Employee Number
+-Event manager
+-Email
+# Venu Id
+-Venue name
+-Address
+-City
+-State
+-Zip
+-Contact name
+-Contact email
+-Contact phone
+# Event Id
+-Event name
+-Event date
+
+cat code, employee id, venue id 
 
 2.
 a) categories managers venues and events are 4 entitites

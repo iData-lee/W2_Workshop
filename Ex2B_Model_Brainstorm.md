@@ -7,19 +7,19 @@ Important different categories to track would be the category code, employee #, 
  - Event category
 # Employee Number
  - Event manager
--Email
-# Venu Id
--Venue name
--Address
--City
--State
--Zip
--Contact name
--Contact email
--Contact phone
+ - Email
+# Venu Id 
+ - Venue name
+ - Address
+ - City
+ - State
+ - Zip
+ - Contact name
+ - Contact email
+ - Contact phone
 # Event Id
--Event name
--Event date
+ - Event name
+ - Event date
 
 cat code, employee id, venue id 
 

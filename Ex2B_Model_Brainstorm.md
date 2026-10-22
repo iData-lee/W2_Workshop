@@ -3,12 +3,12 @@ Idasha Lee and Thania Sta. Ana
 Someone who wants to look up events going on or the managers who need to keep track of venues and events. They should be able to see all the local events going on
 Important different categories to track would be the category code, employee #, Venue ID, and Event ID. 
 
-# Category code 
+Category code 
  - Event category
-# Employee Number
+Employee Number
  - Event manager
  - Email
-# Venu Id 
+Venue Id 
  - Venue name
  - Address
  - City
@@ -17,14 +17,15 @@ Important different categories to track would be the category code, employee #, 
  - Contact name
  - Contact email
  - Contact phone
-# Event Id
+Event Id
  - Event name
  - Event date
 
 cat code, employee id, venue id 
 
-2.
-a) categories managers venues and events are 4 entitites
-b) attributes : Managers - Employee # (PK), event manager, manager email. Venue -Venue ID (PK), Ven Location, Location Address, Location City, Location State, Location Zip, Venue COntact Name, ven Email, Ven Phone. Events - Event id (pk), event name, event date, cat code foreign key, employee # (fk), venue id (fK)
-c) categories 1 ---< Events (Many) manager 1 ---< events many venues 1 ---< events many
-d) events >---< managers events >---<categories  events>----< venues
+# Logical Model
+a) The four main entities to include would be categories, managers, venues, and events.
+b) Attributes : Managers - Employee # (PK), event manager, manager email. Venue - Venue ID (PK), Venue Location, Location Address, Location City, Location State, Location Zip, Venue Contact Name, Venue Email, Venue Phone. Events - Event ID (PK), event name, event date, category code (fk), employee # (fk), venue id (fK)
+c) Categories to Events is 1 to many: categories 1 ---< Events (Many). Manager can be 1 to many Events: manager 1 ---< events. There can be 1 Venue to many events:
+venues 1 ---< events many
+d) Many to many relationships that will need a resolving table includes: events >---< managers, events >---< categories, events >----< venues

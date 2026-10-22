@@ -6,7 +6,7 @@ Important different categories to track would be the category code, employee #, 
 # Category code 
  - Event category
 # Employee Number
--Event manager
+ - Event manager
 -Email
 # Venu Id
 -Venue name

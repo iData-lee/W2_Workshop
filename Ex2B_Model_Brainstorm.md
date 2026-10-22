@@ -3,12 +3,12 @@ Idasha Lee and Thania Sta. Ana
 Someone who wants to look up events going on or the managers who need to keep track of venues and events. They should be able to see all the local events going on
 Important different categories to track would be the category code, employee #, Venue ID, and Event ID. 
 
-Category code 
+# Category code 
  - Event category
-Employee Number
+# Employee Number
  - Event manager
  - Email
-Venue Id 
+# Venue Id 
  - Venue name
  - Address
  - City
@@ -17,7 +17,7 @@ Venue Id
  - Contact name
  - Contact email
  - Contact phone
-Event Id
+# Event Id
  - Event name
  - Event date
 
